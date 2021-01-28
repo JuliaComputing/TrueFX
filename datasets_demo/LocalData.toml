@@ -1,0 +1,13 @@
+data_config_version=0
+
+#--------------------------------------------------
+[[datasets]]
+description="TrueFX 2016 sample data"
+name="TrueFX"
+uuid="aa21c966-563e-42fb-ac3d-edaa3bdf3652"
+
+    [datasets.storage]
+    driver="FileSystem"
+    type="BlobTree"
+    path="@__DIR__/TrueFX"
+
